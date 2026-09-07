@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML-skjema</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Registrer deg her</legend>
+            <label for="fornavn">
+                Fornavn: <input type="text" id="fornavn" name="fornavn" value="" placeholder="Ola" />
+            </label>
+            <label for="etternavn">
+                Etternavn: <input type="text" id="etternavn" name="etternavn" value="" placeholder="Normann" />
+            </label>
+            <label for="email">
+                Email: <input type="email" id="email" name="email" value="" placeholder="navn@navnesen.no" />
+            </label>
+            <label>
+                <input type="radio" name="Abonnement" value="Gratis" />Gratis
+            </label>
+            <label>
+                <input type="radio" name="Abonnement" value="Pluss" />Pluss
+            </label>
+            <label>
+                <input type="radio" name="Abonnement" value="Pro" checked />Pro
+            </label>
+            <input type="submit" value="Registrer deg" />
+        </fieldset>
+    </form>
+</body>
+</html>
